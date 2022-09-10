@@ -1,0 +1,717 @@
+.project {
+    width: 86%;
+    margin: 5% auto;
+    display: block;
+}
+
+.head, .heads {
+    width: 100%;
+    border: 1px solid #81B737;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edfadc;
+    color: #81B737;
+    padding: 1.6% 0 1.6%;
+}
+
+.heads {
+    background-color: rgb(8, 91, 208);
+    color: white;
+    margin-bottom: 1%;
+    border: none;
+    border: 1px solid;
+}
+
+.heads p {
+    width: 95%;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.heads p h3 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.heads p h3 svg {
+    font-size: 1.8vw;
+    margin-right: 1%;
+}
+
+.heads p span {
+    margin-bottom: 0.7%;
+}
+
+.heads p span a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.1vw;
+    font-weight: 550;
+}
+
+.head p {
+    font-size: 1.05vw;
+    width: 92%;
+}
+
+.head svg {
+    font-size: 2vw;
+    color: #81B737;
+    margin-right: 1%;
+}
+
+.head p a {
+    color: #81B737;
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.split_block {
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_menu {
+    width: 25%;
+    display: block;
+}
+
+.nav_menu .head_btn {
+    width: 100.5%;
+    background-color: #81B737;
+    border: 2px solid #81B737;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.5vw;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head_btn svg {
+    padding: 4% 0 4%;
+    color: white;
+    margin-left: 4%;
+    padding-left: 5%;
+    font-size: 2vw;
+    border-left: 1px solid ;
+}
+
+.head_menus {
+    width: 100%;
+    padding: 3% 0 3%;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.head_menus .except h3 {
+    font-size: 1vw;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.head_menus .h3 b {
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+
+.head_menus .bar {
+    width: 90%;
+    border-radius: 30px;
+    background-color: rgb(190, 190, 190);
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.head_menus .bar div {
+    padding: 3% 0 3%;
+    width: 20%;
+    background: rgb(214, 46, 21);
+}
+
+.head_menus p {
+    width: 90%;
+    font-size: 0.95vw;
+    margin: auto;
+}
+
+.head_menus p a {
+    color: rgb(0, 106, 255);
+    margin-right: 2%;
+    font-weight: 500;
+}
+
+.head_menus .except {
+    display: block;
+}
+
+.nav_menu .head_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 101, 223);
+    padding: 5% 0 5%;
+    border-radius: 3px;
+    margin-bottom: 2%;
+    height: max-content;
+}
+
+.head_menu p {
+    font-size: 1.1vw;
+    width: 78%;
+    color: white;
+}
+
+.head_menu svg {
+    font-size: 1.5vw;
+    color: white;
+    margin-right: 5%;
+}
+
+.nav_menu ul {
+    background-color: rgb(248, 248, 248);
+    margin-top: 5%;
+    border: 1px solid rgb(216, 216, 216);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 3px;
+    position: relative;
+}
+
+.nav_menu ul .first_li {
+    display: block;
+    padding-left: 0%;
+}
+
+.nav_menu ul .first {
+    background-color: rgb(216, 216, 216);
+}
+
+.nav_menu ul li {
+    padding: 5% 0 5% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1vw;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.nav_menu ul li span {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_menu ul li span span {
+    width: max-content;
+    margin-right: 5%;
+}
+
+.first_li ul li span {
+    width: max-content;
+}
+
+.nav_menu .first_li ul {
+    display: none;
+    height: max-content;
+    border: none;
+    border-radius: 0%;
+    margin-bottom: 0%;
+    background-color: rgb(223, 223, 223);
+}
+
+.first_li ul li {
+    padding-left: 14%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.nav_menu .first_li .span {
+    width: 96%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    padding-left: 4%;
+}
+
+.nav_menu .first_li .span span {
+    float: right;
+    margin-left: 53.47%;
+}
+
+.nav_menu .first_li ul li span {
+    margin-right: 3%;
+}
+
+.nav_menu ul li:last-child {
+    border-bottom: none;
+}
+
+.nav_menu ul li:hover {
+    background: rgb(219, 219, 219);
+}
+
+.nav_menu ul li svg {
+    font-size: 1.4vw;
+    color: #474747;
+    margin-right: 3%;
+}
+
+.block_content {
+    width: 73%;
+}
+
+.block {
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.block h1 {
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.3% 0 2.3%;
+    color: rgb(0, 106, 255);
+    background-color: rgb(234, 234, 234);
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.block h1 span {
+    font-weight: lighter;
+    font-size: 1.3vw;
+    margin-left: 26%;
+}
+
+.content {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.content .b1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+    border-right: 1px solid rgb(216, 216, 216);
+}
+
+.b1 .cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+
+.cont .ct {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.ct span {
+    font-size: 1.05vw;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+.b1 .circle {
+    margin-left: 7%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0% 2% 0%;
+    width: 13%;
+    border-radius: 50%;
+    border: 1px solid rgb(154, 154, 154);
+}
+
+.circle div {
+    width: 70%;
+    padding: 30% 0 30%;
+    background: rgb(214, 46, 21);
+    border-radius: 50%;
+}
+
+.b1 .bar {
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    transform:  translate( -50% , -50% );
+    padding: 0.3%;
+    height: 100%;
+    background-color: rgb(182, 182, 182);
+}
+
+.content .b2 {
+    width: 82%;
+    padding: 2% 0 0%;
+}
+
+.steps_group {
+    display: flex;
+    justify-content: center;
+}
+
+.steps_group .b2_child {
+    padding: 0% 0 2%;
+    width: 25%;
+    position: relative;
+}
+
+.b2_child h4 {
+    font-size: 1.1vw;
+    font-weight: lighter;
+    margin-bottom: 4%;
+}
+
+.b2_child img {
+    width: 60%;
+}
+
+.b2_child h3 {
+    font-size: 0.9vw;
+    font-weight: 550;
+}
+
+.b2_child svg {
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    color: rgb(154, 154, 154);
+}
+
+.foot_c {
+    border-top: 1px solid rgb(216, 216, 216);
+    width: 100%;
+    padding: 1% 0 1%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.foot_c button {
+    width: 26%;
+    padding: 1% 0% 1% 0%;
+    margin-left: 2%;
+    border-radius: 4px;
+    font-size: 1.1vw;
+    background: linear-gradient( #9ECA54, #81B737);
+    color: white;
+}
+
+.foot_c button:nth-child(1):hover {
+    background: #8cce31;
+}
+
+.foot_c button:nth-child(2) {
+    background: rgb(154, 154, 154);
+}
+
+.foot_c button:nth-child(2):hover {
+    background: #d7d7d7;
+    color: black;
+}
+
+.foot_c p {
+    font-size: 1.08vw;
+    margin-left: 6%;
+    color: #474747;
+    font-style: italic;
+}
+
+.foot_c p span {
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/*** page admin ******/ 
+
+.block .h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    font-size: 1.4vw;
+    width: 100%;
+    margin: auto;
+    color: black;
+    padding: 2% 0 2%;
+    text-indent: 2%;
+    box-shadow: 0 0 3px rgb(182, 182, 182);
+    margin-bottom: 3%;
+    background: whitesmoke;
+}
+
+.h1 p {
+    font-size: 1vw;
+    width: 95.5%;
+    padding-left: 0%;
+    text-indent: 0%;
+    margin: auto;
+}
+
+.h1 span {
+    color: black;
+    margin-bottom: 1%;
+}
+
+.h1 span b {
+    color: black;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.content_block {
+    display: none;
+}
+
+.user_profile {
+    width: 100%;
+    display: flex;
+}
+
+.user_profile .splits_div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid rgb(190, 190, 190);
+    padding: 2% 0 2%;
+    background: none;
+}
+
+.user_profile #ss {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.splits_div div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.splits_div div p {
+    display: flex;
+    font-size: 1.1vw;
+    margin: 10% auto;
+}
+
+.splits_div div p svg {
+    color: rgb(65, 65, 65);
+}
+
+.splits_div b {
+    font-size: 1vw;
+    margin-bottom: 10%;
+    color: rgb(65, 65, 65);
+}
+
+.splits_div h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 2%;
+    color: rgb(65, 65, 65);
+}
+
+.splits_div span {
+    font-size: 1vw;
+    margin-top: 10%;
+}
+
+.d_block {
+    width: 100%;
+    margin-top: 3%;
+    border-top: 1px solid rgb(216, 216, 216);
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d_block .db1 {
+    width: 48%;
+    border: 1px solid rgb(216, 216, 216)
+}
+
+.db1 h1 {
+    width: 100%;
+    padding: 3% 0 3%;
+    text-indent: 4%;
+    display: flex;
+    justify-content: start;
+    font-size: 1.3vw;
+    color: black;
+    background-color: rgb(228, 228, 228);
+}
+
+.db1 div {
+    display: flex;
+    width: 90%;
+    margin: 5% auto;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 3% 0 3%;
+}
+
+.db1 div p {
+    font-size: 0.9vw;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    text-align: start;
+}
+
+.db1 div p h3 {
+    font-size: 1vw;
+    color: rgb(0, 106, 255);
+}
+
+.db1 div:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.db1 div:last-child span {
+    font-size: 1vw;
+}
+
+.db1 div:last-child span:last-child {
+    color: rgb(0, 106, 255);
+}
+
+.db1 div:last-child button {
+    background: none;
+    font-size: 0.8vw;
+    color: rgb(0, 106, 255);
+}
+
+.d_group {
+    width: 100%;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+#content {
+    border: none;
+}
+
+
+.content2_block {
+    background-color: whitesmoke;
+    padding: 0.5% 0 2%;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgb(190, 190, 190);
+}
+
+.block2 {
+    width: 90%;
+    margin: 3% auto;
+}
+
+.block2 p {
+    font-size: 0.98vw;
+    margin-bottom: 2%;
+}
+
+.block2 p button {
+    font-weight: bold;
+    margin: 0 1% 0 1%;
+    background: none;
+    font-size: 1.1vw;
+}
+
+.block_image {
+    width: 100%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns:  repeat( 6, 1fr);
+}
+
+.block2 .block_image div {
+    width: 75%;
+    border-radius: 3px;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 8% 0 5%;
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+
+.block_image img {
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+.block2 div h4 {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.btnss_group div {
+    width: 60%;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    display: flex;
+    margin: auto;
+    padding: 0.5% 0 0.5%;
+    margin-bottom: 1%;
+}
+
+.btnss_group div button {
+    font-size: 1.1vw;
+    background: rgb(211, 211, 211);
+    color: black;
+    padding: 1% 0 1%;
+    border-radius: 3px;
+    width: 30%;
+    margin-left: 2%;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.btnss_group button:nth-child(4) {
+    width: 15%;
+    background: #81B737;
+    color: white;
+    padding:  1.5% 0 1.5%;
+    border-radius: 4px;
+    font-size: 1.1;
+}

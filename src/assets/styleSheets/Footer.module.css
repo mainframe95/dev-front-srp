@@ -1,0 +1,196 @@
+footer {
+    width: 100%;
+    height: max-content;
+    background-color: #000B33;
+}
+
+footer div {
+    width: 86%;
+    height: max-content;
+    margin: auto;
+}
+
+.widget_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0 3%;
+    border-bottom: 5px solid white;
+}
+
+.socials  {
+    display: flex;
+    width: 35%;
+}
+
+.socials li {
+    margin: 0 1.5% 0 1.5%;
+}
+
+.socials li a img {
+   width: 85% 
+}
+
+.newsletter_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.newsletter_form p {
+    font-size: 1.2vw;
+    text-align: end;
+}
+
+.newsletter_form form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter_form form input {
+    width: 25vw;
+    padding: 2.5% 2% 2.5%;
+    text-indent: 2%;
+    font-size: 1.2vw;
+    background: none;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 3px;
+    margin-right: 7%;
+    margin-left: 3%;
+    color: white;
+    transition: 0.7s;
+}
+
+.newsletter_form form input:focus {
+    background-color: #000b3325;
+}
+
+.newsletter_form form button {
+    width: 10vw;
+    font-size: 1.2vw;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 2.5% 0 2.5%;
+    background: rgb(190, 13, 13);
+}
+
+.newsletter_form form button:hover {
+    background-color: rgb(251, 69, 69);
+}
+
+.link_foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.link_foot ul {
+    color: white;
+    text-align: start;
+    padding-left: 0;
+}
+
+.link_foot ul li {
+    margin-left: 0;
+    justify-content: start;
+    padding: 4% 0 4%;
+}
+
+.link_foot ul li a {
+    color: rgb(195, 195, 195);
+    font-size: 1.12vw;
+}
+
+.link_foot ul h3 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin-bottom: 4%;
+}
+
+.copyright {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+    padding: 1.3% 0 1.3%;
+}
+
+.copyright p {
+    font-size: 1vw;
+}
+.copyright p a {
+    color: #002fd7;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    footer div {
+        width: 95%;
+    }
+    .widget_group {
+        flex-direction: column;
+    }
+
+    .socials {
+        width: 48%;
+        margin-bottom: 4%;
+    }
+    .socials li a img {
+        width: 100%;
+    }
+
+    .newsletter_form { 
+        width: 100%
+    }
+
+    .newsletter_form p {
+        font-size: 2.1vw;
+        text-align: start;
+    }
+
+    .newsletter_form form {
+        width: 90%;
+    }
+
+    .newsletter_form form input {
+        width: 75%;
+        padding: 5% 0 5%;
+        font-size: 2.3vw;
+        margin-right: 0.5%;
+    }
+
+    .newsletter_form form button {
+        font-size: 2vw;
+        margin: 0%;
+        width: 30%;
+    }
+
+    .link_foot {
+        flex-direction: column;
+    }
+
+    .link_foot ul h3 {
+        font-size: 3vw;
+        margin-bottom: 2%;
+    }
+
+    .link_foot ul {
+        margin-bottom: 4%;
+    }
+    .link_foot ul li {
+        padding: 0.4%;
+    }
+
+    .copyright p {
+        font-size: 2.3vw;
+    }
+
+    .link_foot ul li a {
+        font-size: 2.3vw;
+    }
+}

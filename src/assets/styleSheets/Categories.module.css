@@ -1,0 +1,189 @@
+.block_body {
+    width: 100%;
+    padding: 0% 0 2% 0%;
+}
+
+.section_one,
+.section_two,
+.section_three,
+.section_four,
+.section_five,
+.section_six,
+.section_seven,
+.section_eight {
+    width: 100%;
+    text-align: center;
+    margin: 2% 0 3%;
+    padding: 3% 0 0.5%;
+}
+
+.section_two,
+.section_four,
+.section_six {
+    background-color: rgba(0, 55, 255, 0.049);
+}
+
+h2 {
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+
+.block_body section p {
+    font-size: 1.1vw;
+    margin: 2% 0 4%;
+    width: 70%;
+    margin: 1% auto;
+}
+
+.content_logo {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat( 6, 1fr);
+    margin-bottom: 0%;
+    margin: 4% auto;
+}
+
+.logo {
+    margin: auto;
+    margin-bottom: 5%;
+    width: 90%;
+    border: 1px solid rgb(164, 164, 164);
+    padding: 10% 0 10%;
+    transition: 0.7s;
+} 
+
+.logo:hover {
+    background-color: rgba(0, 51, 255, 0.156);
+}
+
+.logo img {
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.logo h3 {
+    font-size: 1vw;
+    font-weight: 400;
+    color: rgb(77, 81, 111);
+}
+
+
+.section_seven {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 4% auto;
+}
+
+.section_div div {
+    width: 33%;
+}
+.section_div h3 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin: 2% 0 3%;
+}
+
+.section_div div img {
+    width: 40%;
+}
+.section_div p {
+    width: 100%;
+    font-size: 1vw;
+    margin-bottom: 2%;
+}
+
+.section_seven button {
+    width: 22%;
+    color: white;
+    background: rgb(0, 51, 255);
+    text-transform: uppercase;
+    padding: 1% 0 1%;
+    margin: 1% auto;
+    font-size: 1.1vw;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+
+.section_seven button:nth-child(4) {
+    background: none;
+    color: rgb(0, 51, 255);
+    margin-top: 1%;
+    padding: 0.8% 0.2% 0.8% 0.2%;
+}
+
+.section_seven button:nth-child(4):hover {
+    background-color: rgba(0, 51, 255, 0.114);
+}
+
+
+.section_seven button:last-child:hover {
+    background-color: rgb(84, 118, 255);
+}
+
+
+.section_eight {
+    width: 87%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.section_eight img {
+    width: 60%;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .content_logo {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .logo h3 {
+        font-size: 3vw;
+    }
+
+    .block_body section h2 {
+        font-size: 3.5vw;
+    }
+    
+    .block_body section p {
+        font-size: 2vw;
+        width: 90%;
+    }
+
+    .section_div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_div div {
+        width: 80%;
+        margin-bottom: 2%;
+    }
+
+    .section_div div h3 {
+        font-size: 2.5vw;
+    }
+
+    .section_seven button {
+        width: 40%;
+        font-size: 2vw;
+        padding: 2% 0 2%;
+    }
+
+    .section_eight {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

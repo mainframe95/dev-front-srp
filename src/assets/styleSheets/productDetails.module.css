@@ -1,0 +1,1118 @@
+.section_one {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    margin: 8% auto;
+}
+
+.bloc_sect1,
+.bloc_sect2 {
+    width: 45%;
+}
+
+.bloc_sect2 {
+    width: 50%;
+}
+
+.scroll {
+    height: 85vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 1%;
+}
+
+
+.scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+.scroll::-webkit-scrollbar-track {
+    background: rgb(231, 231, 231);
+    border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 5px solid rgb(145, 145, 145);
+}
+
+
+
+.bloc_sect1 .bloc_product {
+    display: flex;
+}
+
+.div_product img {
+    width: 100%;
+    height: 100%;
+}
+
+.block_slide img {
+    width: 100%;
+    margin-top: 30%;
+}
+
+.block_slide {
+    width: 15%;
+    height: 56vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+.block_slide button {
+    background: none;
+    position: absolute;
+    font-size: 1.5vw;
+}
+
+.block_slide button:nth-child(1) {
+    left: 30%;
+    top: 0%;
+}
+
+.block_slide button:nth-child(2) {
+    bottom: -3%;
+    left: 30%;
+}
+
+.block_slide div {
+    display: flex;
+    flex-direction: column;
+    height: 58vh;
+    padding: 20% 0 30%;
+    border: 1px solid;
+}
+
+.div_product {
+    width: 83%;
+    border: 1px solid grey;
+    height: 56vh;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.foot_bloc {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_bloc div {
+    width: 48%;
+    display: flex;
+    justify-content: space;
+}
+
+.foot_bloc p {
+    font-size: 0.9vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot_bloc div b {
+    font-size: 0.9vw;
+}
+
+.foot_bloc div img {
+    width: 20%;
+    height: 50%;
+    margin-right: 4%;
+}
+
+
+
+.b1 h2 {
+    font-size: 1.6vw;
+    margin-bottom: 2%;
+}
+
+.b1 p {
+    font-size: 1vw;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.b1 p span {
+    margin-top: 2%;
+}
+
+.b1 p span:nth-child(2) {
+    margin: 6% 0 0 20%;
+    color: rgb(12, 81, 255);
+}
+
+.b2 {
+    width: 100%;
+    margin-top: 7%;
+}
+
+.b2 h3 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+
+.b2 p {
+    font-size: 1vw;
+    margin-bottom: 3%;
+    width: 95%;
+}
+
+.b2 div {
+    width: 70%;
+    margin: 0% 0 0% 5%;
+}
+
+.b2 div p {
+    font-size: 0.95vw;
+}
+
+.b2 .btns {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.bloc_sect2 .btns button {
+    background: rgb(235, 1, 1);
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    width: 45%;
+    padding: 3% 0 3%;
+    border-radius: 2px;
+    transition: 0.7s;
+    color: white;
+    margin-right: 5%;
+}
+
+.bloc_sect2 .btns button:nth-child(2) {
+    background: rgb(12, 81, 255);
+}
+
+.bloc_sect2 .btns button:nth-child(1):hover {
+    background: rgb(255, 104, 104);
+}
+
+
+.bloc_sect2 .btns button:nth-child(2):hover {
+    background: rgb(103, 146, 255);
+}
+
+.b2 div:nth-child(4),
+.b2 div:nth-child(4) .choose_size,
+.b2 div:nth-child(5),
+.b2 div:nth-child(6),
+.b2 div:nth-child(7),
+.b2 div:nth-child(8) {
+    width: 100%;
+    margin: 0%;
+    margin-top: 7%;
+}
+
+.b2 div:nth-child(5) div,
+.b2 .square {
+    margin-left: 0%;
+    margin: 0%;
+}
+
+.bloc_size {
+    width: 100%;
+}
+
+.b2 div:nth-child(4) {
+    margin-top: 25%;
+}
+
+.b2 div:nth-child(4) .choose_size {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b2 div:nth-child(4) .choose_size div {
+    margin-left: 0%;
+}
+
+.choose_size .size {
+    width: 32%;
+    height: 100%;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    text-align: center;
+    padding: 4% 0% 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.size h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+}
+
+.size h2 span {
+    font-size: 1vw;
+    margin-top: 5%;
+    color: black;
+}
+
+.size_content {
+
+    height: max-content;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 0 5px grey;
+    text-align: start;
+    padding-bottom: 12%;
+    padding-left: 2%;
+}
+
+.size_content h3 {
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 2% 0% 10% 2%;
+}
+
+.size_content h3 span {
+    font-size: 0.8vw;
+}
+
+.size_content .c {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(12, 81, 255);
+}
+
+.c h4 {
+    font-size: 0.8vw;
+    font-weight: 200;
+}
+
+.c div {
+    border-radius: 50%;
+    background-color: rgb(12, 81, 255);
+    width: 10%;
+    padding: 5% 0 5%;
+}
+
+
+.square {
+    margin-top: 4%;
+}
+
+.square .cardre {
+    width: 44%;
+    padding: 2.5%;
+    margin-left: 0%;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.square .divs_sq {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0%;
+    padding-top: 0%;
+}
+
+.divs_sq div {
+    width: 45%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divs_sq div h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.divs_sq div h2 span {
+    font-size: 1vw;
+    color: black;
+}
+
+.divs_sq div img {
+    width: 15%;
+}
+
+.quantity h2 {
+    font-size: 1.3vw;
+    margin-bottom: 2%;
+}
+
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th {
+    border: none;
+    font-size: 1.2vw;
+    font-weight: 200;
+    padding: 1% 0 1% 2%;
+    text-align: start;
+}
+
+tbody td {
+    padding: 1.1% 0 1.1% 2%;
+    font-size: 1.1vw;
+}
+
+#last_line {
+    padding: 2% 0 2%;
+    border: 1px solid grey;
+    margin-bottom: 5%;
+}
+
+tbody #last_line button {
+    background: none;
+    font-size: 1.12vw;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+tbody #end_line {
+    padding-top: 50%;
+}
+
+#end_line span {
+    font-size: 1.12vw;
+    padding-left: 4%;
+    margin-right: 5%;
+}
+
+#end_line input {
+    padding: 1.5%;
+    width: 20%;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 1% 0 1%;
+}
+
+
+.summary {
+    padding: 0%;
+}
+
+.summary h2 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.table {
+    padding: 0%;
+    width: 100%;
+    margin: 0%;
+    margin-left: 0%;
+    border: none;
+}
+
+.table p {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5% 1% 1.5% 1%;
+    margin: 0%;
+    border-top: 1px solid grey;
+}
+
+.table p span:nth-child(1) {
+    text-align: start;
+}
+
+.table p span:nth-child(2) {
+    margin-right: 60%;
+}
+
+.table p span {
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin-right: 0%;
+}
+
+.table p:nth-child(6) {
+    border-bottom: 1px solid grey;
+}
+
+
+.end table {
+    border: none;
+}
+
+.end h2 {
+    font-size: 1.3vw;
+    margin-bottom: 3%;
+}
+
+.end div {
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0%;
+    margin-left: 0%;
+}
+
+.end table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end div img {
+    height: 110%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.end div h3 {
+    width: 90%;
+    font-size: 1vw;
+    font-weight: 300;
+    margin-bottom: 6%;
+    margin-left: 2.2%;
+}
+
+.end div p {
+    font-size: 0.9vw;
+    width: 90%;
+    margin-left: 10%;
+}
+
+
+.section_two {
+    width: 86%;
+    margin: 8% auto;
+    margin-bottom: 5%;
+}
+
+.content_tabs {
+    width: 75%;
+    display: block;
+
+}
+
+.tabs_container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background: rgba(12, 81, 255, 0.15);
+}
+
+
+.tabs {
+    width: 100%;
+    padding: 4% 0 5%;
+    position: absolute;
+    display: none;
+}
+
+.btn_group {
+    width: 100%;
+    display: flex;
+}
+
+.btn_group button {
+    padding: 1% 1.2% 1% 1.2%;
+    width: max-content;
+    font-size: 1vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 1%;
+}
+
+.no_active {
+    background: rgba(12, 81, 255, 0.091);
+    color: black;
+}
+
+.active {
+    background: rgb(12, 81, 255);
+    color: white;
+}
+
+.tabs .split {
+    width: 92%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part_comments {
+    width: 50%;
+}
+
+.part_form h3,
+.part_comments h3 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+
+p svg {
+    margin-top: 2%;
+    font-size: 1.1vw;
+    color: rgb(236, 224, 0);
+}
+
+.div_scroll {
+    width: 95%;
+    height: 70vh;
+    margin-top: 3%;
+    overflow-y: scroll;
+}
+
+
+.div_scroll::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 20px;
+}
+
+.div_scroll::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+
+.div_scroll::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 5px solid rgb(145, 145, 145);
+}
+
+.div_scroll {
+    -ms-overflow-style: none;
+}
+
+.content_msg {
+    width: 92%;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 2% 0 1%;
+    background: white;
+}
+
+.bloc_msg p {
+    width: 98%;
+    margin: auto;
+}
+
+.bloc_msg p:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bloc_msg p b {
+    font-size: 1.1vw;
+}
+
+.bloc_msg p:nth-child(1) svg {
+    margin-left: 0%;
+}
+
+.bloc_msg p:nth-child(2) {
+    font-size: 0.9vw;
+    color: grey;
+    margin: 2% 1% 3%;
+}
+
+.bloc_msg p:nth-child(3) {
+    font-size: 0.95vw;
+    margin-bottom: 2%;
+}
+
+.bloc_msg p:nth-child(4) {
+    font-size: 1vw;
+    margin-bottom: 2%;
+}
+
+.bloc_msg p:nth-child(4) svg {
+    color: rgb(12, 81, 255);
+}
+
+.foot_msg {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_msg button {
+    background: none;
+    font-size: 1vw;
+    color: rgb(12, 81, 255);
+    font-style: Bold;
+}
+
+.foot_msg button:nth-child(1):hover {
+    text-decoration: underline;
+}
+
+.foot_msg p {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_msg p span button {
+    background: none;
+}
+
+
+.part_form {
+    width: 43%;
+}
+
+.part_form p svg {
+    font-size: 1.5vw;
+    color: rgb(222, 207, 1);
+}
+
+.part_form p:nth-child(2) {
+    margin-bottom: 2%;
+}
+
+.part_form form {
+    width: 100%;
+    margin-top: 8%;
+}
+
+.part_form form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+}
+
+.part_form form div label {
+    font-size: 1vw;
+    margin-bottom: 1%;
+}
+
+.part_form form div input {
+    padding: 2.5% 1% 2.5% 1%;
+    width: 98%;
+    border-radius: 5px;
+    border: none;
+}
+
+.part_form form div textarea {
+    resize: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.part_form form button {
+    width: 100%;
+    border-radius: 30px;
+    background: rgb(12, 81, 255);
+    color: white;
+    margin-top: 3%;
+    padding: 3% 0 3%;
+    font-size: 1.08vw;
+}
+
+.part_form form button:hover {
+    background: rgb(104, 147, 254);
+}
+
+
+
+.section_three {
+    width: 86%;
+    margin: 2% auto;
+    margin-bottom: 10%;
+    height: max-content;
+}
+
+.section_three h3 {
+    font-size: 1.4vw;
+}
+
+.block_child {
+    margin-top: 3%;
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.block_child a {
+    color: black;
+    transition: 0.7s;
+}
+
+.block_child a:hover .foot_product {
+    background-color: rgb(233, 233, 233);
+}
+
+.block_child a:hover .product {
+    background-color: rgb(233, 233, 233);
+    transform: scale(1.05);
+}
+
+.foot_product {
+    transition: 0.7s;
+    text-align: center;
+}
+
+
+.product {
+    border: 1px solid rgb(209, 209, 209);
+    width: 95%;
+    margin: auto;
+    margin-bottom: 6%;
+    transition: 0.7s;
+    padding-bottom: 3%;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+
+}
+
+.product h4 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1vw;
+    text-align: center;
+    margin: 3% 0 6%;
+}
+
+.product h4 span {
+    font-weight: 200;
+    margin: 2% 0 0;
+}
+
+.product svg {
+    color: rgb(221, 196, 0);
+    font-size: 1.3vw;
+    margin-bottom: 3%;
+}
+
+.product b {
+    font-size: 1vw;
+    margin-top: 3%;
+}
+
+
+#files {
+    width: 99%;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px dotted rgb(64, 118, 255);
+    border-width: 2px;
+    position: relative;
+    padding: 2% 0 5%;
+    cursor: pointer;
+}
+
+.part_form form div #files input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#files span {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.08vw;
+    color: rgb(12, 81, 255);
+}
+
+#files svg {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    color: rgb(133, 167, 255);
+}
+
+@media screen and (max-width: 720px) {
+    .section_one {
+        flex-direction: column;
+    }
+
+    .section_two {
+        width: 93%;
+    }
+
+    .content_tabs {
+        width: 100%;
+    }
+
+    .btn_group button {
+        font-size: 2vw;
+    }
+
+    .tabs_container {
+        height: 200vh;
+    }
+
+    .split {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .content_msg {
+        height: ;
+    }
+
+    .div_scroll {
+        height: 105vh;
+        width: 60vw;
+        overflow: hidden;
+        margin-bottom: 15%;
+    }
+
+    .bloc_msg p b {
+        font-size: 2.5vw;
+    }
+
+    .bloc_msg p:nth-child(2) {
+        font-size: 1.7vw;
+    }
+
+    .bloc_msg p:nth-child(3) {
+        font-size: 1.9vw;
+    }
+
+    .bloc_msg p:nth-child(4) {
+        font-size: 1.9vw;
+    }
+
+    .bloc_msg p:nth-child(4) svg {
+        font-size: 1.9vw;
+    }
+
+    .foot_msg button {
+        font-size: 2vw;
+    }
+
+    .part_comments h3 {
+        font-size: 3vw;
+    }
+
+    .part_comments p {
+        font-size: 2.5vw;
+    }
+
+    .part_comments p span svg {
+        font-size: 2.5vw;
+    }
+
+    .part_form h3 {
+        font-size: 3vw;
+    }
+
+    .part_form p span svg {
+        font-size: 2vw;
+    }
+
+    .part_form form {
+        width: 50vw;
+    }
+
+    .part_form form div label {
+        font-size: 2.5vw;
+    }
+
+    .part_form form #files span {
+        font-size: 2vw;
+    }
+
+    .part_form form #files svg {
+        font-size: 5vw;
+    }
+
+    .part_form form button {
+        font-size: 2vw;
+    }
+
+    .section_three {
+        width: 93%;
+    }
+
+    .foot_product h4 {
+        font-size: 1.7vw;
+    }
+
+    .foot_product b {
+        font-size: 2vw;
+    }
+
+    .foot_product span svg {
+        font-size: 2vw;
+    }
+
+    .section_three h3 {
+        font-size: 3vw;
+    }
+
+    .bloc_sect2 {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 260vh;
+    }
+
+    .scroll {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .size_content h3 span {
+        font-size: 1.4vw;
+    }
+
+    .size_content .c h4 {
+        font-size: 1.5vw;
+    }
+
+    .size h2 span {
+        font-size: 2vw;
+    }
+
+    .divs_sq div h2 {
+        font-size: 2.5vw;
+    }
+
+    .divs_sq div h2 span {
+        font-size: 2vw;
+    }
+
+    .bloc_sect2 h2 {
+        font-size: 3vw;
+    }
+
+    .b1 {
+        margin-bottom: 0%;
+    }
+
+    .b1 p {
+        font-size: 2vw;
+        margin-bottom: 0%;
+    }
+
+    .b1 p span {
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .b1 p span:nth-child(2) {
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+
+    .b2 {
+        margin-top: 0%;
+    }
+
+    .b2 h3 {
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+    .bloc_size {
+        margin-top: 0%;
+    }
+
+    .bloc_sect2 p {
+        font-size: 2vw;
+    }
+
+    .b2 div:nth-child(3) p {
+        font-size: 2vw;
+    }
+
+
+    .b2 div:nth-child(4) {
+        margin-top: 0%;
+    }
+
+    .quantity table thead th {
+        font-size: 2vw;
+    }
+
+    .quantity table tbody td {
+        font-size: 2vw;
+    }
+
+    table tbody #last_line button {
+        font-size: 2vw;
+    }
+
+    #end_line span{
+        font-size: 2vw;
+    }
+
+    .table p span {
+        font-size: 2vw;
+    }
+
+    .end table div h3 {
+        font-size: 2.2vw;
+    } 
+
+    .end table div p {
+        font-size: 1.8vw;
+    }
+
+    .bloc_sect2 .btns button {
+        font-size: 2vw;
+    }
+
+    .foot_bloc {
+        margin-top: 0%;
+        border: 1px solid;
+    }
+    .foot_bloc div img {
+        width: 60%;
+    }
+
+    .bloc_sect1 {
+        border: 1px solid;
+        width: 100%;
+    }
+
+    .bloc_sect1 #carou {
+        width: 70vw;
+    }
+
+    .bloc_sect1 div p b {
+        font-size: 2vw;
+    } 
+
+    .bloc_sect1 div p {
+        font-size: 2vw;
+    }
+
+}

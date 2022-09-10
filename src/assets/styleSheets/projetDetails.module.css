@@ -1,0 +1,1946 @@
+.block_content {
+    width: 100%;
+    margin: 5% auto;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.section_one .head {
+    width: 86%;
+    padding: 2%;
+    background: rgba(0, 0, 255, 0.122);
+    border-radius: 4px;
+    margin: auto;
+}
+
+.head h3 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.head h3 svg {
+    font-size: 1.4vw;
+    margin-right: 1%;
+}
+
+.head p {
+    margin-left: 5%;
+    font-size: 1.1vw;
+}
+
+.head p span {
+    text-transform: uppercase;
+}
+
+.progress_anim {
+    margin: 2% auto;
+    margin-bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    position: relative;
+}
+
+
+.progress_anim .svgs {
+    width: 19%;
+    padding: 5% 0 5%;
+    position: relative;
+}
+
+.progress_anim .svgs svg {
+    font-size: 6vw;
+}
+
+.progress_anim .svgs svg {
+    font-size: 6vw;
+    fill: rgb(190, 190, 190);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress_anim .svgs:nth-child(2) svg:nth-child(1) {
+    fill: rgb(30, 30, 30);
+}
+
+.svgs .s1 {
+    color: white;
+}
+
+.progress_anim .svgs svg:nth-child(2) {
+    fill: rgb(41, 41, 41);
+    display: none;
+}
+
+.progress_anim span {
+    font-size: 1.6vw;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bar_progress {
+    width: 62%;
+    height: 1.5vh;
+    border: none;
+    border-radius: 4px;
+    background: rgb(226, 226, 226);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar_progress::after {
+    border: 1px solid rgb(30, 30, 30);
+    content: "";
+    background: rgb(30, 30, 30);
+    width: 20%;
+    height: 83%;
+    position: absolute;
+}
+
+.progress_anim h3 {
+    width: max-content;
+    position: absolute;
+    font-size: 1.2vw;
+    font-weight: 400;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.section_two {
+    width: 100%;
+    background: rgba(0, 0, 255, 0.122);
+    padding: 0.5% 0 2%;
+    margin-top: 7%;
+}
+
+.section_two h2 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section_two h2 span {
+    font-size: 1.2vw;
+    color: black;
+    margin-top: 1%;
+}
+
+.bl1 {
+    width: 86%;
+    margin: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bl1 div {
+    width: 95%;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding: 8% 0% 8%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.7s;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.bl1 div:hover {
+    background-color: rgba(0, 0, 255, 0.059);
+    transform: scale(1.03);
+}
+
+.bl1 svg {
+    color: royalblue;
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    display: none;
+}
+
+.bl1 div img {
+    width: 20%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.bl1 p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+}
+
+.bl1 p h4 {
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.bl1 p span {
+    color: royalblue;
+    margin-top: 2%;
+    font-size: 1.1vw;
+}
+
+.bl2 {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bl2 div {
+    width: 48.3%;
+    background: white;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 4px;
+    padding: 2% 0 2% 1%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: start;
+}
+
+.bl2 div p:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.bl2 p h3 {
+    width: 90%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.bl2 p:nth-child(2) span {
+    color: rgb(0, 72, 255);
+    font-size: 1vw;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+
+
+.bl2 div img {
+    width: 25%;
+    height: 60%;
+    margin-right: 2%;
+}
+
+.bl2 p {
+    font-size: 1vw;
+}
+
+.bl2 p p:nth-child(4) {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1%;
+    width: 99%;
+}
+
+.bl2 p p:nth-child(4) span {
+    color: rgb(64, 64, 64);
+    width: 100%;
+}
+
+.bl2 p svg {
+    margin-right: 2%;
+    font-size: 1.1vw;
+}
+
+.btn_continue {
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    color: white;
+    font-size: 550;
+    background: rgb(0, 72, 255);
+    display: flex;
+    padding: 1.7%;
+    width: 19%;
+    margin: 4% auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.btn_continue svg {
+    margin-left: 5%;
+}
+
+.btn_continue:hover {
+    background-color: rgb(102, 145, 255);
+}
+
+
+.section_three {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(166, 166, 166);
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.warranty {
+    box-shadow: 0 0 2px rgb(199, 199, 199);
+    width: 50%;
+    display: flex;
+    margin: 3% auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+
+.warranty img {
+    width: 19%;
+    margin-right: 2%;
+}
+
+.warranty div h3 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+.warranty div p {
+    font-size: 1.1vw;
+}
+
+.warranty p a {
+    color: rgb(0, 72, 255);
+}
+
+.section_foot {
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.122);
+}
+
+.section_foot p {
+    font-size: 1.1vw;
+    margin-top: 0.5%;
+}
+
+.section_foot p a {
+    color: rgb(0, 72, 255);
+    margin-left: 0.5%;
+}
+
+.section_two form {
+    width: 55%;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 4px;
+    margin: auto;
+    padding: 0% 0 2%;
+
+    background-color: white;
+}
+
+form .inputs {
+    display: block;
+    width: 100%;
+    margin: 2% auto;
+    padding: 2% 0 2%;
+    border-bottom: 1px solid grey;
+    position: relative;
+}
+
+form .inputs div:nth-child(1) {
+    display: none;
+}
+
+form .inputs textarea {
+    width: 59%;
+    font-size: 1.1vw;
+    resize: none;
+    margin-right: 3%;
+}
+
+form .inputs div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+form .inputs label {
+    font-size: 1.2vw;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+form .inputs span {
+    font-size: 1vw;
+    color: #ff5500;
+    margin-top: 1%;
+}
+
+form .inputs div input {
+    width: 60%;
+    font-size: 1.1vw;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 2% 2% 2% 1%;
+    margin-right: 3%;
+}
+
+.section_two form p:nth-child(5) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 5% auto;
+}
+
+.btn_continues {
+    background-color: rgb(0, 72, 255);
+    color: white;
+    width: 30%;
+}
+
+.section_two form p:nth-child(5) button {
+    padding: 3%;
+    border-radius: 4px;
+    font-size: 1.18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two form p:nth-child(5) button svg {
+    font-size: 1.7vw;
+    margin-left: 3%;
+}
+
+.section_two form p:nth-child(5) button:nth-child(1) {
+    background: grey;
+    color: white;
+    width: 50%;
+    height: 20%;
+}
+
+.section_two form p:nth-child(5) button:nth-child(2):hover {
+    background: rgb(102, 145, 255);
+}
+
+.section_two form p:nth-child(5) button:nth-child(1):hover {
+    background-color: rgb(199, 199, 199);
+    color: black;
+}
+
+.bull3,
+.bull2,
+.bull {
+    word-spacing: 2px;
+    position: absolute;
+    right: -34%;
+    top: -240%;
+    width: 60%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgb(208, 208, 208);
+    padding: 0% 2% 12% 2%;
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 23% 76%, 10% 90%, 10% 75%, 0% 75%);
+}
+
+.bull2 {
+    top: -142%;
+    padding-bottom: 16%;
+}
+
+.bull3 {
+    top: -210%;
+    padding-bottom: 10%;
+    display: none;
+}
+
+.bull p,
+.bull2 p,
+.bull3 p {
+    font-size: 1vw;
+    color: rgb(31, 31, 31);
+}
+
+.bull h3 {
+    font-size: 1.4vw;
+    margin-bottom: 2%;
+    font-weight: 500;
+}
+
+.bull p span,
+.bull2 p span,
+.bull3 p span {
+    font-size: 1.3vw;
+    margin-top: 4%;
+    color: rgb(30, 30, 30);
+}
+
+
+
+
+.packet_group {
+    width: 86%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.packet {
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 0% 0 5%;
+    transition: 0.7s;
+    position: relative;
+    margin: auto;
+}
+
+.packet:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 2px grey;
+}
+
+.packet div img {
+    width: 45%;
+}
+
+.packet div {
+    width: 90%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.packet div h3 {
+    font-size: 1.5vw;
+    margin-bottom: 0;
+}
+
+.packet div:nth-child(1) {
+    border-bottom: 1px solid grey;
+    padding-bottom: 0%;
+    margin-bottom: 4%;
+    padding-top: 20%;
+}
+
+.packet div p {
+    margin-top: 3%;
+    font-size: 1vw;
+    text-align: start;
+}
+
+
+.packet div #ps {
+    text-align: center;
+    font-weight: 550;
+    margin-top: 10%;
+    color: rgb(224, 0, 0);
+}
+
+.packet div h4 {
+    font-size: 1.4vw;
+    margin-top: 4%;
+}
+
+.packet div button {
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    color: white;
+    background: grey;
+    border: 1px solid rgb(68, 68, 68);
+    width: 100%;
+    padding: 5% 0 5%;
+    margin-top: 5%;
+    transition: 0.7s;
+}
+
+.packet div button:hover {
+    background: rgb(172, 172, 172);
+}
+
+.packet h5 {
+    width: 100%;
+    background-color: rgb(0, 72, 255);
+    color: white;
+    font-size: 1.1vw;
+    padding: 5% 0 5%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+}
+
+.bloc_div {
+    margin: auto;
+    width: 86%;
+}
+
+.split_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_group {
+    width: 65%;
+}
+
+.card_group div {
+    width: 95%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(205, 205, 205);
+    padding: 3% 2% 3% 2%;
+    border: 1px solid gray;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.card_group div img:nth-child(1) {
+    position: absolute;
+    top: 0%;
+    right: -4%;
+    width: 10%;
+}
+
+.devis {
+    width: 33%;
+}
+
+.card_group img {
+    width: 17%;
+    margin-right: 4%;
+}
+
+.card_group div p:nth-child(3) {
+    width: 60%;
+}
+
+.card_group div p:nth-child(3) p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    margin: 1%;
+    width: 95%;
+}
+
+.card_group div p h3 {
+    font-size: 1.2vw;
+    margin-bottom: 5%;
+}
+
+.card_group div .pl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.9vw;
+    width: 32%;
+    float: right;
+}
+
+.pl h4 {
+    font-size: 1.2vw;
+}
+
+.pl p {
+    text-align: center;
+}
+
+.card_group p button {
+    background: rgb(230, 230, 230);
+    border: 1px solid rgb(68, 68, 68);
+    color: black;
+    padding: 5% 0 5%;
+    width: 52%;
+    font-size: 1.1vw;
+    margin-left: 3%;
+}
+
+.card_group p button:hover {
+    background: rgb(199, 199, 199);
+}
+
+#last_divs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+#last_divs form {
+    width: 85%;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+#last_divs form label {
+    font-size: 1.1vw;
+    font-weight: 550;
+}
+
+#last_divs form input {
+    width: 42%;
+    background: none;
+    padding: 2%;
+    border: 1px solid grey;
+    font-size: 1.1vw;
+}
+
+#last_divs form button {
+    width: 21%;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    background: rgb(98, 98, 98);
+    color: white;
+    padding: 2%;
+}
+
+#last_divs form button:hover {
+    background: rgb(172, 172, 172);
+}
+
+#last_divs p {
+    font-size: 1vw;
+    margin-top: 2%;
+}
+
+.devis h3 {
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.devis p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.1vw;
+    margin-top: 4%;
+}
+
+.devis #pd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.devis p span {
+    font-size: 1.2vw;
+}
+
+.total {
+    margin-top: 30%;
+}
+
+.econ {
+    width: 10%;
+    margin: 3% auto;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 5% 0 5%;
+    font-size: 1.1vw;
+    font-weight: 550;
+    color: rgb(224, 0, 0);
+}
+
+#code {
+    justify-content: center;
+}
+
+#code button {
+    background: none;
+    color: rgb(0, 72, 255);
+    font-size: 1.1vw;
+    margin-left: 2%;
+}
+
+.devis div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div .modePaie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 2%;
+}
+
+div .modePaie img {
+    width: 20%;
+}
+
+.devis #war img {
+    width: 30%;
+    margin-top: 8%;
+}
+
+.devis #war h4 {
+    font-size: 1vw;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.devis #war p a {
+    color: rgb(0, 72, 255);
+
+}
+
+
+.btnss {
+    width: 50%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnss button {
+    padding: 2% 2% 2% 2%;
+    width: max-content;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 1.5vw;
+}
+
+.btnss button:nth-child(1) {
+    background: rgb(97, 97, 97);
+    color: white;
+}
+
+.btnss button:nth-child(1):hover {
+    background: rgb(172, 172, 172);
+}
+
+.btnss button:nth-child(2):hover {
+    background: rgb(102, 145, 255);
+}
+
+.section_two li a {
+    color: rgb(0, 72, 255);
+    margin-top: 4%;
+}
+
+
+/***** partie confirmation du projet details ******/
+.confirm_projet {
+    width: 86%;
+    margin: auto;
+    border: 1px solid rgb(166, 166, 166);
+    background-color: white;
+    display: block;
+    padding: 2% 0 2%;
+}
+
+.confirm_projet div {
+    width: 70%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0 2%;
+    margin: auto;
+}
+
+.confirm_projet div:nth-child(4) {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+}
+
+.confirm_projet div h4 {
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.confirm_projet div span {
+    font-size: 1.1vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+.confirm_projet div span span {
+    margin-bottom: 2%;
+}
+
+.confirm_projet div span .red {
+    color: rgb(233, 0, 0);
+}
+
+.confirm_projet div a {
+    color: rgb(0, 72, 255);
+    font-size: 1.1vw;
+    margin-top: 0%;
+}
+
+.paiement {
+    width: 86%;
+    border: 1px solid rgb(166, 166, 166);
+    background-color: white;
+    padding: 1% 0 5%;
+    margin: 3% auto;
+}
+
+.mode_p {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paiement .mode_p #block_p {
+    width: 23%;
+    height: max-content;
+    border: 1px solid rgb(166, 166, 166);
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0 2%;
+    border-radius: 4px;
+}
+
+.paiement .mode_p #block_p:last-child {
+    border: none;
+}
+
+
+.paiement .mode_p #block_p:last-child p {
+    font-size: 0.8vw;
+}
+
+#block_p .input {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+#block_p .input input {
+    font-size: 3vw;
+    margin-right: 3%;
+}
+
+#block_p .input span {
+    font-size: 1.2vw;
+    color: black;
+}
+
+.mode_p .mp {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.mp img {
+    width: 19%;
+    margin-right: 2%;
+}
+
+
+.paiement .mode_p #block_p:last-child .mp img {
+    width: 50%;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+
+#block_p p {
+    font-size: 0.95vw;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#block_p:nth-child(2) .input {
+    margin-bottom: 3%;
+}
+
+#block_p:nth-child(2) div img {
+    width: 80%;
+}
+
+#block_p:nth-child(3) div img,
+#block_p:nth-child(4) div img {
+    width: 44%;
+}
+
+#block_p:nth-child(4) div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_paie {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_paie form {
+    width: 50%;
+    border: none;
+}
+
+.form_paie form div {
+    display: block;
+    margin-bottom: 3%;
+}
+
+.form_paie form div span {
+    color: #ff5500;
+    font: 1vw;
+    float: right;
+    margin-right: 2%;
+}
+
+.form_paie form div p {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.form_paie form div p label {
+    font-size: 1.25vw;
+    text-align: end;
+    width: 40%;
+    color: grey;
+    margin-right: 4%;
+}
+
+.form_paie form div p input {
+    border-radius: 2px;
+    padding: 2.5%;
+    width: 50%;
+    border: 1px solid grey;
+    font-size: 1.09vw;
+}
+
+.form_paie form div:nth-child(2) input,
+.form_paie form div:nth-child(3) input {
+    width: 28%;
+}
+
+.form_paie form button {
+    float: right;
+    width: 53.5%;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    padding: 3% 0 3%;
+    background: rgb(0, 72, 255);
+    border-radius: 2px;
+    margin-top: 3%;
+    margin-right: 2%;
+    color: white;
+}
+
+.form_paie form button:hover {
+    background: rgb(102, 145, 255);
+}
+
+.form_p2 {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.form_p2 img {
+    width: 40%;
+}
+
+.form_p2 h4 {
+    font-size: 1.1vw;
+    font-weight: 550;
+}
+
+.form_p2 p {
+    font-size: 1vw;
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+}
+
+.form_p2 p a {
+    color: rgb(0, 72, 255);
+}
+
+/*********** paiement mobile *******/
+.mobile {
+    width: 50%;
+    padding-top: 2%;
+}
+
+.mobile h3 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin-bottom: 0 0 3% 30%;
+}
+
+.mobile form {
+    width: 90%;
+    padding-top: 4%;
+}
+
+.mobile form .input_form2 {
+    width: 90%;
+}
+
+.mobile .input_form2 label {
+    font-size: 1.3vw;
+}
+
+.input_form2 div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.input_form2 div select {
+    padding: 3%;
+    font-size: 1.3vw;
+    border: 1px soid grey;
+}
+
+.form_paie .input_form2 div:nth-child(2) input,
+.form_paie .input_form2 div:nth-child(1) input {
+    width: 70%;
+    font-size: 1.3vw;
+    padding: 3% 2% 3% 2%;
+    border-radius: 2px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.form_paie .input_form2:nth-child(2) div:nth-child(2) input {
+    margin-top: 3%;
+    padding: 2%;
+    background: rgba(102, 145, 255, 0.198);
+    width: 50%;
+}
+
+.mobile .input_form2:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile form button {
+    margin-right: 10%;
+}
+
+.payp_block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.payp_block button {
+    background: rgb(0, 72, 255);
+    border-radius: 30px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.payp_block button:hover {
+    background: rgb(102, 145, 255);
+}
+
+.payp_block button img {
+    width: 60%;
+}
+
+@media screen and (max-width: 720px) {
+    .section_one .head {
+        width: 90%;
+    }
+
+    .head h3 {
+        font-size: 3vw;
+        margin-bottom: 2%;
+    }
+
+    .head h3 svg {
+        font-size: 4vw;
+        margin-right: 1%;
+    }
+
+    .head p {
+        font-size: 2.2vw;
+    }
+
+    .progress_anim .svgs {
+        width: 25%;
+        padding: 8% 0 5%;
+    }
+
+    .progress_anim .svgs svg {
+        font-size: 9.5vw;
+    }
+
+    .progress_anim span {
+        font-size: 2.5vw;
+    }
+
+    .progress_anim .svgs h3 {
+        font-size: 2vw;
+    }
+
+    .bar_progress {
+        width: 82%;
+    }
+
+    .progress_anim h3 {
+        width: 50%;
+        margin-top: 7%;
+        text-align: center;
+    }
+
+    .section_two h2 {
+        font-size: 3vw;
+    }
+
+    .section_two h2 span {
+        font-size: 2.5vw;
+        color: black;
+        margin-top: 1%;
+    }
+
+    .bl1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bl1 div img {
+        width: 28%;
+        margin-left: 4%;
+    }
+
+    .bl1 p h4 {
+        font-size: 2.4vw;
+        margin-right: 1%;
+    }
+
+    .bl1 p span {
+        font-size: 2vw;
+    }
+
+    .bl2 {
+        width: 96%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bl2 div {
+        width: 86.5%;
+        justify-content: start;
+    }
+
+    .bl2 p h3 {
+        font-size: 2.5vw;
+    }
+
+    .bl2 p:nth-child(2) span {
+        font-size: 2.3vw;
+    }
+
+
+    .bl2 div img {
+        width: 24%;
+    }
+
+    .bl2 p {
+        font-size: 2.3vw;
+    }
+
+    .bl2 p svg {
+        margin-right: 2%;
+        font-size: 1.8vw;
+    }
+
+    .btn_continue {
+        font-size: 3vw;
+        width: 35%;
+        justify-content: center;
+        padding: 3% 0 3%;
+    }
+
+    .warranty {
+        width: 70%;
+    }
+
+    .warranty img {
+        width: 26%;
+    }
+
+    .warranty div h3 {
+        font-size: 2.5vw;
+    }
+
+    .warranty div p {
+        font-size: 2vw;
+    }
+
+
+    .section_two form {
+        width: 90%;
+    }
+
+    form .inputs {}
+
+    form .inputs div:nth-child(1) {
+        display: none;
+    }
+
+    form .inputs textarea {
+        width: 54%;
+        font-size: 3vw;
+    }
+
+    form .inputs label {
+        font-size: 2.4vw;
+    }
+
+    form .inputs span {
+        font-size: 1vw;
+        color: #ff5500;
+        margin-top: 1%;
+    }
+
+    form .inputs div input {
+        font-size: 2.5vw;
+        width: 55%;
+    }
+
+
+    .btn_continues {
+        background-color: rgb(0, 72, 255);
+        color: white;
+        width: 30%;
+    }
+
+    .section_two form p:nth-child(5) button {
+        padding: 3%;
+        border-radius: 4px;
+        font-size: 2.4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_two form p:nth-child(5) button svg {
+        font-size: 3vw;
+    }
+
+    .section_two form p:nth-child(5) button:nth-child(1) {
+        width: 58%;
+    }
+
+    .packet_group {
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .packet:hover {
+        transform: none;
+        box-shadow: 0 0 2px grey;
+    }
+
+    .packet div img {
+        width: 55%;
+    }
+
+    .packet {
+        margin-bottom: 5%;
+    }
+
+    .packet div h3 {
+        font-size: 2.5vw;
+    }
+
+    .packet div p {
+        font-size: 1.8vw;
+    }
+
+
+    .packet div #ps {}
+
+    .packet div h4 {
+        font-size: 3vw;
+    }
+
+    .packet div button {
+        font-size: 2.3vw;
+    }
+
+    .packet h5 {
+        font-size: 2vw;
+    }
+
+
+    .bloc_div {
+        width: 90%;
+    }
+
+    .split_div {
+        flex-direction: column;
+    }
+
+    .card_group {
+        width: 100%;
+    }
+
+    .card_group div {
+        width: 95%;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(205, 205, 205);
+        padding: 3% 2% 3% 2%;
+        border: 1px solid gray;
+        margin-bottom: 2%;
+        position: relative;
+    }
+
+    .card_group div img:nth-child(1) {
+        width: 13%;
+    }
+
+    .devis {
+        width: 33%;
+    }
+
+    .card_group img {
+        width: 20%;
+    }
+
+    .card_group div p:nth-child(3) {
+        width: 65%;
+    }
+
+    .card_group div p:nth-child(3) p {
+        font-size: 2vw;
+    }
+
+    .card_group div p h3 {
+        font-size: 2.5vw;
+    }
+
+    .pl h4 {
+        font-size: 2vw;
+    }
+
+    .card_group p button {
+        width: 60%;
+        font-size: 2.5vw;
+    }
+
+    #last_divs form {
+        width: 90%;
+    }
+
+    #last_divs form label {
+        font-size: 2vw;
+    }
+
+    #last_divs form input {
+        width: 45%;
+        font-size: 2vw;
+    }
+
+    #last_divs form button {
+        font-size: 2.2vw;
+    }
+
+    #last_divs p {
+        font-size: 2vw;
+    }
+
+    .devis {
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .devis h3 {
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    .devis p {
+        font-size: 2.5vw;
+    }
+
+    .devis p span {
+        font-size: 3vw;
+    }
+
+    #code button {
+        font-size: 3vw;
+
+    }
+
+    div .modePaie {
+        flex-direction: column;
+    }
+
+    div .modePaie img {
+        width: 25%;
+        margin-top: 4%;
+    }
+
+    .devis #war img {
+        width: 25%;
+        margin-top: 8%;
+    }
+
+    .devis #war h4 {
+        font-size: 3vw;
+    }
+
+    .btnss {
+        width: 85%;
+    }
+
+    .btnss button {
+        font-size: 2.5vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnss button svg {
+        font-size: 3vw;
+        color: white;
+        margin-left: 2%;
+    }
+
+
+    .confirm_projet {
+        width: 86%;
+        margin: auto;
+        border: 1px solid rgb(166, 166, 166);
+        background-color: white;
+        display: block;
+        padding: 2% 0 2%;
+    }
+
+    .confirm_projet div {
+        width: 70%;
+        border-bottom: 1px solid grey;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2% 0 2%;
+        margin: auto;
+    }
+
+    .confirm_projet div:nth-child(4) {
+        border-bottom: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .confirm_projet div h4 {
+        font-size: 1.1vw;
+        font-weight: 500;
+    }
+
+    .confirm_projet div span {
+        font-size: 1.1vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0%;
+    }
+
+    .confirm_projet div span span {
+        margin-bottom: 2%;
+    }
+
+    .confirm_projet div span .red {
+        color: rgb(233, 0, 0);
+    }
+
+    .confirm_projet div a {
+        color: rgb(0, 72, 255);
+        font-size: 1.1vw;
+        margin-top: 0%;
+    }
+
+    .paiement {
+        width: 86%;
+        border: 1px solid rgb(166, 166, 166);
+        background-color: white;
+        padding: 1% 0 5%;
+        margin: 3% auto;
+    }
+
+    .mode_p {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .paiement .mode_p #block_p {
+        width: 23%;
+        height: max-content;
+        border: 1px solid rgb(166, 166, 166);
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 0 2%;
+        border-radius: 4px;
+    }
+
+    .paiement .mode_p #block_p:last-child {
+        border: none;
+    }
+
+
+    .paiement .mode_p #block_p:last-child p {
+        font-size: 0.8vw;
+    }
+
+    #block_p .input {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7%;
+    }
+
+    #block_p .input input {
+        font-size: 3vw;
+        margin-right: 3%;
+    }
+
+    #block_p .input span {
+        font-size: 1.2vw;
+        color: black;
+    }
+
+    .mode_p .mp {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    .mp img {
+        width: 19%;
+        margin-right: 2%;
+    }
+
+
+    .paiement .mode_p #block_p:last-child .mp img {
+        width: 50%;
+        border: 1px solid rgb(150, 150, 150);
+    }
+
+
+    #block_p p {
+        font-size: 0.95vw;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    #block_p:nth-child(2) .input {
+        margin-bottom: 3%;
+    }
+
+    #block_p:nth-child(2) div img {
+        width: 80%;
+    }
+
+    #block_p:nth-child(3) div img,
+    #block_p:nth-child(4) div img {
+        width: 44%;
+    }
+
+    #block_p:nth-child(4) div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_paie {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .form_paie form {
+        width: 50%;
+        border: none;
+    }
+
+    .form_paie form div {
+        display: block;
+        margin-bottom: 3%;
+    }
+
+    .form_paie form div span {
+        color: #ff5500;
+        font: 1vw;
+        float: right;
+        margin-right: 2%;
+    }
+
+    .form_paie form div p {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .form_paie form div p label {
+        font-size: 1.25vw;
+        text-align: end;
+        width: 40%;
+        color: grey;
+        margin-right: 4%;
+    }
+
+    .form_paie form div p input {
+        border-radius: 2px;
+        padding: 2.5%;
+        width: 50%;
+        border: 1px solid grey;
+        font-size: 1.09vw;
+    }
+
+    .form_paie form div:nth-child(2) input,
+    .form_paie form div:nth-child(3) input {
+        width: 28%;
+    }
+
+    .form_paie form button {
+        float: right;
+        width: 53.5%;
+        font-size: 1.2vw;
+        text-transform: uppercase;
+        padding: 3% 0 3%;
+        background: rgb(0, 72, 255);
+        border-radius: 2px;
+        margin-top: 3%;
+        margin-right: 2%;
+        color: white;
+    }
+
+    .form_paie form button:hover {
+        background: rgb(102, 145, 255);
+    }
+
+    .form_p2 {
+        width: 38%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2%;
+    }
+
+    .form_p2 img {
+        width: 40%;
+    }
+
+    .form_p2 h4 {
+        font-size: 1.1vw;
+        font-weight: 550;
+    }
+
+    .form_p2 p {
+        font-size: 1vw;
+        margin-top: 5%;
+        width: 80%;
+        text-align: center;
+    }
+
+    .form_p2 p a {
+        color: rgb(0, 72, 255);
+    }
+
+
+    /***** partie confirmation du projet details ******/
+    .confirm_projet {
+        width: 90%;
+    }
+
+    .confirm_projet div {
+        width: 95%;
+    }
+
+    .confirm_projet div:nth-child(4) {
+        border-bottom: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .confirm_projet div h4 {
+        font-size: 2.2vw;
+        font-weight: 500;
+    }
+
+    .confirm_projet div span {
+        font-size: 1.8vw;
+
+    }
+
+    .confirm_projet div a {
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+    .paiement {
+        width: 90%;
+    }
+
+    .mode_p {
+        width: 95%;
+    }
+
+    .paiement .mode_p #block_p {
+        width: 24%;
+    }
+
+    .paiement .mode_p #block_p:last-child p {
+        font-size: 2vw;
+    }
+
+
+    #block_p .input span {
+        font-size: 1.8vw;
+    }
+
+
+    .mp img {
+        width: 25%;
+    }
+
+
+    .paiement .mode_p #block_p:last-child .mp img {
+        width: 50%;
+        border: 1px solid rgb(150, 150, 150);
+    }
+
+
+    #block_p p {
+        font-size: 0.95vw;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+
+    .form_paie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_paie form {
+        width: 90%;
+        border: 1px solid;
+    }
+
+    .form_paie form div span {
+        font-size: 2vw;
+    }
+
+    .form_paie form div p label {
+        font-size: 2.4vw;
+    }
+
+    .form_paie form div p input {
+        font-size: 2.5vw;
+    }
+    /*********** paiement mobile *******/
+    .mobile {
+        width: 90%;
+    }
+
+    .mobile h3 {
+        font-size: 3vw;
+    }
+
+    .mobile form {
+        width: 90%;
+    }
+
+    .mobile .input_form2 label {
+        font-size: 2.2vw;
+    }
+
+    .input_form2 div select {
+        font-size: 2vw;
+    }
+
+    .form_paie .input_form2 div:nth-child(2) input,
+    .form_paie .input_form2 div:nth-child(1) input {
+        font-size: 2.3vw;
+    }
+
+    .form_paie .input_form2:nth-child(2) div:nth-child(2) input {
+        margin-top: 3%;
+        padding: 2%;
+        background: rgba(102, 145, 255, 0.198);
+        width: 50%;
+    }
+
+    .mobile .input_form2:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile form button {
+        margin-right: 10%;
+    }
+
+    .payp_block {
+        width: 70%;
+    }
+
+    .payp_block p {
+        font-size: 2.5vw;
+    }
+
+    
+}

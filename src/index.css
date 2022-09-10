@@ -1,0 +1,50 @@
+::after, ::before, * {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container_body {
+    width: 100%;
+    background-color: white
+}
+
+p {
+    word-spacing: 1px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+input {
+    outline: none;
+    text-indent: 2%;
+    padding-right: 2%;
+}
+
+textarea {
+    padding: 2%;
+    outline: none;
+}

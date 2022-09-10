@@ -1,0 +1,191 @@
+.section_one {
+    padding: 4% 0 5%;
+    display: block;
+    width: 100%;
+}
+
+.first_div,
+.last_div {
+    width: 86%;
+    display: flex;
+    margin: auto;
+}
+
+.first_div {
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1.5%;
+}
+.first_div form {
+    display: block;
+    width: 38%;
+}
+
+.first_div form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(165, 165, 165);
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 1.5%;
+    padding-right: 2%;
+}
+
+.first_div label {
+    font-size: 1.2vw;
+    margin-bottom: 3%;
+}
+
+.first_div form input {
+    font-size: 1.2vw;
+    padding: 1.9% 2% 1.8% 2%;
+    width: 90%;
+    border: none;
+    color: rgb(165, 165, 165);
+}
+
+.first_div form button {
+    font-size: 1.3vw;
+    background: none;
+}
+
+.select_block {
+    display: flex;
+    flex-direction: column;
+    width: 17%
+}
+
+.select_block select {
+    font-size: 1.2vw;
+    padding: 4% 0 4%;
+    border-radius: 3px;
+    border: 1px solid rgb(165, 165, 165);
+    color: rgb(132, 131, 131);
+}
+
+.last_div {
+    margin-top: 1%;
+    font-size: 1.2vw;
+}
+
+.last_div a {
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(0, 30, 255);
+    margin-left: 3%;
+}
+
+.section_two {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 4% 0 4%;
+    margin: auto;
+}
+
+.div_section {
+    width: 86%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+}
+
+.products {
+    border: 1px solid rgb(230, 230, 230);
+    width: 96%;
+    height: max-content;
+    display: block;
+    background-color: white;
+    padding: 0%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 8%;
+    transition: 0.7s;
+}
+
+.products:hover {
+    transform: scale(1.05);
+}
+
+.products .cover {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.617);
+    position: absolute;
+    top: 0%;
+}
+
+.cover li {
+    padding: 22%;
+}
+
+.cover li a {
+    color: white;
+    font-weight: 600;
+}
+
+.products img {
+    width: 100%;
+}
+
+.foot_product div {
+    margin: auto;
+    width: 88%;
+    border-bottom: 1px solid grey;
+    padding: 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_product div p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot_product div p div {
+    border: none;
+}
+
+.foot_product div h5 {
+    font-size: 1vw;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot_product div p b {
+    font-size: 1.12vw;
+    margin-bottom: 1%;
+    color: rgb(0, 30, 255);
+}
+
+.foot_product div img {
+    width: 20%;
+}
+.foot_product div p svg {
+    font-size: 1.2vw;
+    color: rgb(220, 198, 0);
+}
+
+.foot_product div span {
+    font-size: 1.15vw;
+}
+
+.foot_product button {
+    background: rgb(0, 30, 255);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    border-radius: 2px;
+    width: 88%;
+    padding: 3.5% 0 3.5%;
+    margin: 2% auto;
+    margin-left: 6%;
+}
+
+
+.foot_product button:hover {
+    background: rgb(64, 86, 251);
+}
